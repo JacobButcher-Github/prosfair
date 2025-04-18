@@ -21,7 +21,7 @@ Each has special characteristics which will be listed later. They do not start o
 
 ### Game Ending
 
-The game ends if the Commander is placed in checkmate, very similar to normal chess. There are also alternative win conditions which might appear within the separate boards on Realms.
+The game ends if the King is placed in checkmate, very similar to normal chess. There are also alternative win conditions which might appear within the separate boards on Realms.
 
 ### Experience
 
