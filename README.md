@@ -354,7 +354,7 @@ Finally, to move pieces on Realms, a player must first capture a piece from a di
 
         Attacks through fog tiles do +1 rank of damage (bypass shields, effects).
 
-25. Shardwolf
+25. Shard Wolf
 
     Stage 1: Frostbound Cub
 
