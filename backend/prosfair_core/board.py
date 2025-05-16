@@ -23,6 +23,22 @@ class Board:
     def initialSetup(self) -> None:
         """Called when the game is first being setup on the main board. Makes grid
         and pieces represent expected values at start of a game."""
-        self.piecesLookup[(5, 0)] = pieceData("white", "rook")
-        self.piecesLookup[(6, 0)] = pieceData("white", "knight")
-        ...
+        backrow: list[str] = [
+            "rook",
+            "knight",
+            "bishop",
+            "queen",
+            "king",
+            "bishop",
+            "knight",
+            "rook",
+        ]
+
+        startCol: int = 5
+        for i, piece in enumerate(backrow):
+            self.piecesLookup[(i + startCol, 0)] = pieceData("white", piece)
+            self.piecesLookup[(i + startCol, 7)] = pieceData("black", piece)
+
+        for i in range(5, 14):
+            self.piecesLookup[(i, 1)] = pieceData("white", "pawn")
+            self.piecesLookup[(i, 6)] = pieceData("black", "pawn")

@@ -4,7 +4,8 @@ from prosfair_core.board import Board
 def main():
 
     board = Board()
-    print(board.grid)
+    board.initialSetup()
+    print(board.piecesLookup)
 
 
 if __name__ == "__main__":
